@@ -1,0 +1,4 @@
+﻿  dynamic.cpp
+c:\users\7356506\desktop\sdsmt\fall2020\aoa\project2\project2\project2\dynamic.cpp(183): warning C4101: 'j': unreferenced local variable
+c:\users\7356506\desktop\sdsmt\fall2020\aoa\project2\project2\project2\dynamic.cpp(183): warning C4101: 'i': unreferenced local variable
+  Project2.vcxproj -> C:\Users\7356506\Desktop\SDSMT\Fall2020\AoA\Project2\Project2\Debug\Project2.exe

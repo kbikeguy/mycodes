@@ -1,0 +1,6 @@
+﻿  main.cpp
+  LINK : C:\Users\7356506\Desktop\SDSMT\Fall2020\AoA\Project4\FFT\Debug\FFT.exe not found or not built by the last incremental link; performing full link
+main.obj : error LNK2005: "void __cdecl print_top_polynomial(class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > &)" (?print_top_polynomial@@YAXAAV?$vector@V?$complex@N@std@@V?$allocator@V?$complex@N@std@@@2@@std@@@Z) already defined in helper code.obj
+main.obj : error LNK2005: "class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > __cdecl readFile(char * const)" (?readFile@@YA?AV?$vector@V?$complex@N@std@@V?$allocator@V?$complex@N@std@@@2@@std@@QAD@Z) already defined in helper code.obj
+main.obj : error LNK2005: "class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > __cdecl recursiveFFT(class std::vector<class std::complex<double>,class std::allocator<class std::complex<double> > > &)" (?recursiveFFT@@YA?AV?$vector@V?$complex@N@std@@V?$allocator@V?$complex@N@std@@@2@@std@@AAV12@@Z) already defined in helper code.obj
+C:\Users\7356506\Desktop\SDSMT\Fall2020\AoA\Project4\FFT\Debug\FFT.exe : fatal error LNK1169: one or more multiply defined symbols found

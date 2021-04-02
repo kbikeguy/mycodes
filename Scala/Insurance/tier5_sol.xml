@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<insurance>
+    <zip code="57701">
+        <owner name="Harold">
+            <car make="Ford" year="2015" value="1000" model="Taurus"></car>
+            <accident>
+                <date>12-16-16</date>
+            </accident>
+        </owner>
+        <owner name="Bob">
+            <car make="Toyota" year="2015" value="2000" model="Prius"></car>
+        </owner>
+        <owner name="Indiana Jones">
+            <car make="Ford" year="1976" value="20000" model="Mustang"></car>
+            <accident>
+                <date>7-18-76</date>
+            </accident>
+            <accident>
+                <date>2-20-77</date>
+            </accident>
+            <accident>
+                <date>4-1-78</date>
+            </accident>
+            <accident>
+                <date>1-1-79</date>
+            </accident>
+            <accident>
+                <date>1-16-80</date>
+            </accident>
+            <accident>
+                <date>12-16-80</date>
+            </accident>
+        </owner>
+        <owner name="Darth Vader">
+            <car make="Death" year="2156" value="1000000" model="Star"></car>
+        </owner>
+    </zip>
+    <zip code="57702">
+        <owner name="Sue">
+            <car make="Toyota" year="2015" value="15000" model="Prius"></car>
+            <accident>
+                <date>12-16-13</date>
+            </accident>
+        </owner>
+        <owner name="Captain Kirk">
+            <car make="USS" year="2245" value="0" model="Enterprise NX1"></car>
+        </owner>
+        <owner name="Easter Bunny">
+            <car make="Volkwagon" year="2010" value="8500" model="Beetle"></car>
+            <accident>
+                <date>08-04-13</date>
+            </accident>
+        </owner>
+    </zip>
+    <zip code="57700"/>
+    <zip code="57705">
+        <owner name="Bob">
+            <car make="Chevy" year="2017" value="45000" model="Volt"></car>
+            <accident>
+                <date>3/22/2018</date>
+            </accident>
+        </owner>
+    </zip>
+</insurance>

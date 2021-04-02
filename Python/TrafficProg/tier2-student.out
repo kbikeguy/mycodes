@@ -1,0 +1,137 @@
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Exit
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph:    Length of cycle in minutes: 
+_____Block 1_____
+   Length of block in miles:    Speed limit of block in mph: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-0- ::Exit
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph:    Length of cycle in minutes: 
+_____Block 1_____
+   Length of block in miles:    Speed limit of block in mph: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-0- ::Exit
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles: A block must be at least 0.5 miles. Got: 0.1
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph: Speed limit must be at least 5 mph and a whole number. Got: 4
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph: Speed limit must be at least 5 mph and a whole number. Got: 25.5
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph:    Length of cycle in minutes: Light cycle must be positive and an increment of 0.5 min. Got: 0.25
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph:    Length of cycle in minutes: Light cycle must be positive and an increment of 0.5 min. Got: -0.5
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: 

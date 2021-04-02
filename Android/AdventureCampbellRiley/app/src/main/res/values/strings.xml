@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Adventure Campbell Riley</string>
+    <string name="player">player</string>
+    <string name="display_time">Campbell \n Score: </string>
+    <string name="button1"> 1 </string>
+    <string name="button2"> 2 </string>
+    <string name="button3"> 3 </string>
+    <string name="button4"> 4 </string>
+    <string name="instructions"> Select the buttons in the correct order to unlock exit </string>
+    <string name="go">YOU DID IT, GO GO GO!!!</string>
+    <string name="invalid">Invalid selection</string>
+    <string name="restart">Restart</string>
+    <string name="left">left arrow</string>
+    <string name="right">right arrow</string>
+</resources>

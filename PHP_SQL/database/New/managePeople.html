@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <TITLE>People</TITLE>
+    <link href="peopleStyle.css" type="text/css" rel="stylesheet" />
+    <link href="../style.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</HEAD>
+
+<BODY>
+<script>
+    tab = 'All';
+    sortCol = 1;
+    sortDir = 'x';  //a-ASC, d-DESC, x-undef
+    filters = "";
+
+    //validate a currency input
+    function validateCurrency(input) {
+        maxVal = 9999999999;
+
+        //clamp to maxVal
+        if (input.value > maxVal)
+            input.value = maxVal;
+    }
+
+    //check a time
+    function checkTime(input)
+    {
+        //00:00:00-23:59:59
+        var phoneno = /^([0-1]\d|2[0-3]):[0-5]\d:[0-5]\d$/;
+        if(input == "" || input.match(phoneno))
+        {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    //check a phone number
+    function checkPhoneNum(input)
+    {
+        //(###) #######
+        var phoneno = /^\([2-9]\d{2}\) \d{7}$/;
+        if(input.match(phoneno))
+        {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    //hide a window
+    function hideWindow(name) {
+        document.getElementById(name).classList.add("hidden");
+    }
+
+    //show window
+    function showWindow(name) {
+        document.getElementById(name).classList.remove("hidden");
+    }
+
+    //delete a person
+    function deletePerson(name) {
+        if(confirm("Are you sure? Requested action will permanently remove "+name+".")) {
+            console.log("Deleting "+name+"...");
+            //delete the person and update the table
+            jQuery.ajax({
+                url: "editPeople.php?a=delete&p="+name+"&t="+tab
+            }).done(function(data) {
+                console.log(data);
+                updateTable();
+            });
+        }
+    }
+
+    //edit a person - get data and display edit window
+    function editPerson(name) {
+        console.log("Editing "+name+"...");
+
+        //get the data for the person (return as json)
+        jQuery.ajax({
+            url: "editPeople.php?a=get&p="+name
+        }).done(function(json) {
+            console.log(json);
+            if (json == "NULL") {
+                personData = null;
+            } else {
+                personData = JSON.parse(json);
+
+                //Update and show appropriate fields for the selected tab
+                $("#e_name .editValue")[0].innerHTML = name;
+                $("#e_email input")[0].value = personData["Email"];
+                $("#e_phoneNum input")[0].value = personData["Phone"];
+                $("#e_birthDate input")[0].value = personData["BDate"];
+
+                //Hide error text
+                document.getElementById("e_error").classList.add("hidden");
+
+                //show the window
+                showWindow("editWindow");
+            }
+        });
+
+    }
+
+    //apply edits from edit window
+    function applyEdits() {
+        personData["Name"] = $("#e_name .editValue")[0].innerHTML;
+        personData["Email"] = $("#e_email input")[0].value;
+        personData["Phone"] = $("#e_phoneNum input")[0].value;
+        personData["BDate"] = $("#e_birthDate input")[0].value;
+
+        //make sure we have values for everything
+        if (!personData["Email"] || !personData["Phone"] || !personData["BDate"]) {
+            //display error
+            document.getElementById("e_error").classList.remove("hidden");
+            document.getElementById("e_error").innerHTML = "All fields must have a value!";
+        } else if (!checkPhoneNum(personData["Phone"])) {
+            //display error
+            document.getElementById("e_error").classList.remove("hidden");
+            document.getElementById("e_error").innerHTML = "Invalid phone number.";
+        } else {
+            //perform the edit
+            jQuery.ajax({
+                url: "editPeople.php?a=edit&p="
+                    +personData["Name"]
+                    +"&Email="+personData["Email"]
+                    +"&Phone="+personData["Phone"]
+                    +"&BDate="+personData["BDate"]
+            }).done(function(data) {
+                //hide window and update table
+                hideWindow('editWindow');
+                updateTable();
+            });
+        }
+
+    }
+
+    //re-query and update the table
+    function updateTable() {
+        console.log("Updating table...");
+        jQuery.ajax({
+            url: "getPeople.php?q="+tab+(sortDir !== 'x' ? "&s="+sortCol+"&d="+sortDir : "")+filters
+        }).done(function(data) {
+            document.getElementById("tabcontent").innerHTML = data;
+        });
+    }
+
+    //Get the options for the filters
+    function updatFilters() {
+        console.log("Updating filters...");
+
+        //events
+        jQuery.ajax({
+            url: "getPeopleFilter.php?f=events"
+        }).done(function(data) {
+            $("#f_Event select")[0].innerHTML = data;
+        });
+
+        //jobTitle
+        jQuery.ajax({
+            url: "getPeopleFilter.php?f=jobTitle&t="+tab
+        }).done(function(data) {
+            $("#f_jobTitle select")[0].innerHTML = data;
+        });
+
+        //vendor
+        jQuery.ajax({
+            url: "getPeopleFilter.php?f=vendor"
+        }).done(function(data) {
+            $("#f_vendor select")[0].innerHTML = data;
+        });
+    }
+
+    //show appropriate filters for the tab and hide the rest
+    function showFilters(tab) {
+        //hide all
+        document.getElementById("f_name").classList.add("hidden");
+        document.getElementById("f_jobTitle").classList.add("hidden");
+        document.getElementById("f_Event").classList.add("hidden");
+        document.getElementById("f_payment").classList.add("hidden");
+        document.getElementById("f_shiftStart").classList.add("hidden");
+        document.getElementById("f_shiftEnd").classList.add("hidden");
+        document.getElementById("f_salary").classList.add("hidden");
+        document.getElementById("f_vendor").classList.add("hidden");
+        document.getElementById("f_birthDate").classList.add("hidden");
+
+        //Hide error text
+        document.getElementById("f_error").classList.add("hidden");
+
+        //display the ones we need
+        switch(tab) {
+            case "All":
+                document.getElementById("f_name").classList.remove("hidden");
+                document.getElementById("f_birthDate").classList.remove("hidden");
+                break;
+            case "Participants":
+                document.getElementById("f_name").classList.remove("hidden");
+                document.getElementById("f_jobTitle").classList.remove("hidden");
+                document.getElementById("f_Event").classList.remove("hidden");
+                document.getElementById("f_payment").classList.remove("hidden");
+                document.getElementById("f_birthDate").classList.remove("hidden");
+                console.log("Showing participants filters");
+                break;
+            case "Staff":
+                document.getElementById("f_name").classList.remove("hidden");
+                document.getElementById("f_jobTitle").classList.remove("hidden");
+                document.getElementById("f_Event").classList.remove("hidden");
+                document.getElementById("f_shiftStart").classList.remove("hidden");
+                document.getElementById("f_shiftEnd").classList.remove("hidden");
+                document.getElementById("f_salary").classList.remove("hidden");
+                document.getElementById("f_birthDate").classList.remove("hidden");
+                console.log("Showing Staff filters");
+                break;
+            case "Managers":
+                document.getElementById("f_name").classList.remove("hidden");
+                document.getElementById("f_vendor").classList.remove("hidden");
+                document.getElementById("f_birthDate").classList.remove("hidden");
+                console.log("Showing Managers filters");
+        }
+    }
+
+    //reset filters
+    function resetFilters() {
+        //Hide error text
+        document.getElementById("f_error").classList.add("hidden");
+
+        filters = "";
+        $("#f_name select")[0].value = '';
+        $("#f_name select")[1].value = '';
+
+        $("#f_jobTitle select")[0].value = '';
+
+        $("#f_Event select")[0].value = '';
+
+        $("#f_payment input")[0].value = '';
+        $("#f_payment input")[1].value = '';
+
+        $("#f_shiftStart input")[0].value = '';
+        $("#f_shiftStart input")[1].value = '';
+
+        $("#f_shiftEnd input")[0].value = '';
+        $("#f_shiftEnd input")[1].value = '';
+
+        $("#f_salary input")[0].value = '';
+        $("#f_salary input")[1].value = '';
+
+        $("#f_vendor select")[0].value = '';
+
+        $("#f_birthDate input")[0].value = '';
+        $("#f_birthDate input")[1].value = '';
+    }
+
+    //apply filters
+    function getFilters() {
+        console.log("Applying filters...");
+
+        //check filters
+        if (!checkTime($("#f_shiftStart input")[0].value)
+            || !checkTime($("#f_shiftStart input")[1].value) ) {
+            //Set and show error text
+            document.getElementById("f_error").innerHTML = "Invalid shift start time format.";
+            document.getElementById("f_error").classList.remove("hidden");
+        } else if (!checkTime($("#f_shiftEnd input")[0].value)
+            || !checkTime($("#f_shiftEnd input")[1].value) ) {
+            //Set and show error text
+            document.getElementById("f_error").innerHTML = "Invalid shift end time format.";
+            document.getElementById("f_error").classList.remove("hidden");
+        } else {
+            //Hide error text
+            document.getElementById("f_error").classList.add("hidden");
+
+            //reset filter list
+            filters = "";
+
+            //name filter
+            if ($("#f_name select")[0].value != "" && $("#f_name select")[1].value != "") {
+                filters += "&f_name="+$("#f_name select")[0].value+";"+$("#f_name select")[1].value;
+            }
+
+            //Job Title filter
+            selectInput = $("#f_jobTitle select")[0];
+            if (selectInput.value != "") {
+                //go through options and add ones that are selected
+                optList = [];
+                for (var o of selectInput.options)
+                    if (o.selected) optList.push(o.value);
+
+                filters += "&f_jobTitle="+optList.join(';');
+            }
+
+            //Event filter
+            selectInput = $("#f_Event select")[0];
+            if (selectInput.value != "") {
+                //go through options and add ones that are selected
+                optList = [];
+                for (var o of selectInput.options)
+                    if (o.selected) optList.push(o.value);
+
+                filters += "&f_Event="+optList.join(';');
+            }
+
+            //Payment filter
+            if ($("#f_payment input")[0].value != "" && $("#f_payment input")[1].value != "") {
+                filters += "&f_payment="+$("#f_payment input")[0].value
+                    +";"
+                    +$("#f_payment input")[1].value;
+            }
+
+            //ShiftStart filter
+            if ($("#f_shiftStart input")[0].value != "" && $("#f_shiftStart input")[1].value != "") {
+                filters += "&f_shiftStart="+$("#f_shiftStart input")[0].value
+                    +";"
+                    +$("#f_shiftStart input")[1].value;
+            }
+
+            //ShiftEnd filter
+            if ($("#f_shiftEnd input")[0].value != "" && $("#f_shiftEnd input")[1].value != "") {
+                filters += "&f_shiftEnd="+$("#f_shiftEnd input")[0].value
+                    +";"
+                    +$("#f_shiftEnd input")[1].value;
+            }
+
+            //Salary filter
+            if ($("#f_salary input")[0].value != "" && $("#f_salary input")[1].value != "") {
+                filters += "&f_salary="+$("#f_salary input")[0].value
+                    +";"
+                    +$("#f_salary input")[1].value;
+            }
+
+            //Vendor filter
+            selectInput = $("#f_vendor select")[0];
+            if (selectInput.value != "") {
+                //go through options and add ones that are selected
+                optList = [];
+                for (var o of selectInput.options)
+                    if (o.selected) optList.push(o.value);
+
+                filters += "&f_vendor="+optList.join(';');
+            }
+
+            //Birth Date filter
+            if ($("#f_birthDate input")[0].value != "" && $("#f_birthDate input")[1].value != "") {
+                filters += "&f_birthDate="+$("#f_birthDate input")[0].value
+                    +";"
+                    +$("#f_birthDate input")[1].value;
+            }
+        }
+    }
+
+    //Get the table for the tab
+    function activateTab(elmnt,name){
+        tab = name;
+
+        //clear active tabs
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active");
+        }
+
+        //set new active tab
+        elmnt.classList.add("active");
+        console.log(name);
+
+        //reset, update, and show appropriate filters
+        resetFilters();
+        updatFilters();
+        showFilters(name);
+
+        //reset the sort column and direction
+        sortCol = 1;
+        sortDir = 'x';
+
+        //update the tab content
+        updateTable();
+    }
+
+    //requery with sortby.
+    function sortBy(elmnt,colNum){
+        //get the name of the sort column
+        tabName = document.querySelector("button.active").innerHTML;
+        console.log(tabName);
+
+        //update sort column and direction
+        if (sortCol == colNum)
+        {
+            //toggle asc/desc
+            sortDir = (sortDir == 'a' ? 'd': 'a');
+        }
+        else
+        {
+            //new sort column
+            sortCol = colNum;
+            sortDir = 'a';
+        }
+
+        //Re-query to get sorted table
+        updateTable();
+    }
+</script>
+
+<div class="mainHead">***People***</div>
+<hr>
+<div class="main">
+    <a href="../index.html">Return to Main Web Page</a><br>
+    <br>
+    <!--Tabs-->
+    <div class="tab">
+        <button class="tablinks" onclick="activateTab(this, 'All')">All</button>
+        <button class="tablinks" onclick="activateTab(this, 'Participants')">Participants</button>
+        <button class="tablinks" onclick="activateTab(this, 'Staff')">Staff</button>
+        <button class="tablinks" onclick="activateTab(this, 'Managers')">Managers</button>
+    </div>
+
+    <div class="wrapper">
+        <!--filters area-->
+        <div class="filterWrapper">
+            <div class="filterHeader">Filters</div>
+            <hr>
+            <!--Name filter-->
+            <div class="filterDiv" id="f_name">
+                <span class="filtersHeadline">Last Name</span>
+                <select class="filterDropdown" name="minName" value="">
+                    <!--Filled dynamically-->
+                </select>
+                to
+                <select class="filterDropdown" name="maxName" value="">
+                    <!--Filled dynamically-->
+                </select>
+            </div>
+
+            <!--Job Title Filter-->
+            <div class="filterDiv" id="f_jobTitle">
+                <span class="filtersHeadline">Job Title</span>
+                <select class="filterSelector" size="6" multiple="" name="pv2095">
+                    <!--Filled dynamically-->
+                </select>
+            </div>
+
+            <!--Events Filter-->
+            <div class="filterDiv" id="f_Event">
+                <span class="filtersHeadline">Event</span>
+                <select class="filterSelector" size="6" multiple="" name="pv2095">
+                    <!--Filled dynamically-->
+                </select>
+            </div>
+
+            <!--Payment Filter-->
+            <div class="filterDiv" id="f_payment">
+                <span class="filtersHeadline">Payment</span>
+                $<input class="filterInputNum" autocomplete="off" name="umax2095" placeholder="Min" type="number" value="" oninput="validateCurrency(this)">&nbsp;&nbsp;&nbsp;
+                $<input class="filterInputNum" autocomplete="off" name="umax2095" placeholder="Max" type="number" value="" oninput="validateCurrency(this)">
+            </div>
+
+            <!--Shift Start Filter-->
+            <div class="filterDiv" id="f_shiftStart">
+                <span class="filtersHeadline">Shift Start</span>
+                <input class="filterInputTime" step="1" autocomplete="off" name="umax2095" placeholder="hh:mm:ss" type="text" value="">
+                to
+                <input class="filterInputTime" step="1" autocomplete="off" name="umax2095" placeholder="hh:mm:ss" type="text" value=""><br>
+                <span class="filterHelp">hh:mm:ss</span>
+            </div>
+
+            <!--Shift End Filter-->
+            <div class="filterDiv" id="f_shiftEnd">
+                <span class="filtersHeadline">Shift End</span>
+                <input class="filterInputTime" step="1" autocomplete="off" name="umax2095" placeholder="hh:mm:ss" type="text" value="">
+                to
+                <input class="filterInputTime" step="1" autocomplete="off" name="umax2095" placeholder="hh:mm:ss" type="text" value=""><br>
+                <span class="filterHelp">hh:mm:ss</span>
+            </div>
+
+            <!--Salary Filter-->
+            <div class="filterDiv" id="f_salary">
+                <span class="filtersHeadline">Salary</span>
+                $<input class="filterInputNum" autocomplete="off" name="umax2095" placeholder="Min" type="number" value="" oninput="validateCurrency(this)">&nbsp;&nbsp;&nbsp;
+                $<input class="filterInputNum" autocomplete="off" name="umax2095" placeholder="Max" type="number" value="" oninput="validateCurrency(this)">
+            </div>
+
+            <!--Vendor Filter-->
+            <div class="filterDiv" id="f_vendor">
+                <span class="filtersHeadline">Vendor</span>
+                <select class="filterSelector" size="6" multiple="" name="pv2095">
+                    <!--Filled dynamically-->
+                </select>
+            </div>
+
+            <!--Birth Date Filter-->
+            <div class="filterDiv" id="f_birthDate">
+                <span class="filtersHeadline">Birth Date</span>
+                <input class="filterInputDate" autocomplete="off" name="umax2095" placeholder="Min" type="date" value=""><br>
+                &#x2193;<br>
+                <input class="filterInputDate" autocomplete="off" name="umax2095" placeholder="Max" type="date" value="">
+            </div>
+
+            <hr>
+            <!--Error display-->
+            <div class="filterError" id="f_error">
+                <!--Filled when the user fs up-->
+            </div>
+
+            <!--Apply/Reset buttons-->
+            <div class="filterButtons">
+                <input type="reset" class="button" value="Reset Filters" onclick="resetFilters();updateTable();">
+                <input type="submit" class="button primary" value="Apply Filters" onclick="getFilters();updateTable();">
+            </div>
+        </div>
+
+        <!--Content-->
+        <div id="tabcontent">
+
+        </div>
+        <p><i>(Click column headers to sort.)</i></p>
+    </div>
+
+</div>
+<!--filters area-->
+<div id="editWindow">
+    <div class="windowBackground">
+    </div>
+    <div class="window">
+        <div class="windowHeader">Edit Person</div>
+        <div class="windowBody">
+            <!--Name Field-->
+            <div class="editDiv" id="e_name">
+                <span class="editHeadline">Name</span>
+                <div class="editValue"></div>
+            </div>
+
+            <!--Email Field-->
+            <div class="editDiv" id="e_email">
+                <span class="editHeadline">Email</span>
+                <input class="inputEmail" autocomplete="off" name="Email" placeholder="Email" type="email" value="cperel6@geocities.com">
+            </div>
+
+            <!--Phone # Field-->
+            <div class="editDiv" id="e_phoneNum">
+                <span class="editHeadline">Phone #</span>
+                <input class="inputPhone" autocomplete="off" name="Phone" placeholder="Phone #" type="tel" value="(819) 2427819"><br>
+                <span class="editHelp">(###) #######</span>
+            </div>
+
+            <!--Birth Date Field-->
+            <div class="editDiv" id="e_birthDate">
+                <span class="editHeadline">Birth Date</span>
+                <input class="inputDate" autocomplete="off" name="BDate" type="date" value="">
+            </div>
+
+            <!--edit Error display-->
+            <div class="editError" id="e_error">
+
+            </div>
+
+            <!--Accept/Cancel-->
+            <div class="windowButtons">
+                <input type="button" value="Accept" onclick="applyEdits();">
+                <input type="button" value="Cancel" onclick="hideWindow('editWindow');">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //hide windows
+    hideWindow('editWindow');
+
+    //generate A-Z for Name filter
+    AZ_options = "";
+    for (i = 'A'.charCodeAt(0); i <= 'Z'.charCodeAt(0); i++)
+    {
+        AZ_options += ("<option value=\""+String.fromCharCode(i)+"\">"+String.fromCharCode(i)+"</option>\n");
+    }
+    $("#f_name select")[0].innerHTML = AZ_options;
+    $("#f_name select")[1].innerHTML = AZ_options;
+
+    //activate the first tab
+    tab = document.getElementsByClassName("tab")[0].firstElementChild;
+    name = tab.innerHTML;
+    activateTab(tab, name);
+</script>
+</BODY>
+<HTML>

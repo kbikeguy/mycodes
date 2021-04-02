@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<insurance>
+    <zip code="57701">
+        <owner name="Harold">
+            <car make="Ford" year="2015" value="1000" model="Taurus"></car>
+            <accident>
+                <date>12-16-16</date>
+            </accident>
+        </owner>
+        <owner name="Bob">
+            <car make="Toyota" year="2015" value="2000" model="Prius"></car>
+        </owner>
+        <owner name="Indiana Jones">
+            <car make="Ford" year="1976" value="20000" model="Mustang"></car>
+            <accident>
+                <date>7-18-76</date>
+            </accident>
+            <accident>
+                <date>2-20-77</date>
+            </accident>
+            <accident>
+                <date>4-1-78</date>
+            </accident>
+            <accident>
+                <date>1-1-79</date>
+            </accident>
+            <accident>
+                <date>1-16-80</date>
+            </accident>
+            <accident>
+                <date>12-16-80</date>
+            </accident>
+        </owner>
+        <owner name="Darth Vader">
+            <car make="Death" year="2156" value="1000000" model="Star"></car>
+        </owner>
+    </zip>
+    <zip code="57702">
+        <owner name="Sue">
+            <car make="Toyota" year="2015" value="15000" model="Prius"></car>
+            <accident>
+                <date>12-16-13</date>
+            </accident>
+        </owner>
+        <owner name="Captain Kirk">
+            <car make="USS" year="2245" value="0" model="Enterprise NX-01"></car>
+        </owner>
+        <owner name="Easter Bunny">
+            <car make="Volkwagon" year="2010" value="8500" model="Beetle"></car>
+            <accident>
+                <date>08-04-13</date>
+            </accident>
+        </owner>
+    </zip>
+    <carShop name="Easy Fix">
+        <service code="1">Oil change: $36</service>
+        <service code="2">Tire Rotation: $35</service>
+    </carShop>
+    <carShop name="Speedy Thrift">
+        <service code="3">Body Work: $34</service>
+        <service code="1">Oil change: $33</service>
+    </carShop>
+    <carShop name="The Mechanic">
+        <service code="3">Body Work: $31</service>
+        <service code="4">Battery change: $32</service>
+        <service code="1">Oil change: $45</service>
+    </carShop>
+    <carShop name="Hail-R-Us">
+        <service code="33">Hail panel damage: $750</service>
+        <service code="5">Windsheild replacement: $200</service>
+    </carShop>
+    <carShop name="Car dealer">
+        <service code="3">Body Work: $31</service>
+        <service code="5">Windsheild replacement: $150</service>
+        <service code="1">Oil change: $40</service>
+        <service code="10">New key: $275</service>
+    </carShop>
+</insurance>

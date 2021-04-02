@@ -1,0 +1,12 @@
+1
+sampleWithShops.xml
+8
+57701
+Harold
+8
+57701
+Indiana JONES
+8
+57702
+Captain Kirk
+0

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="helpStyle.css">
+    <title>
+        Help
+    </title>
+
+
+</head>
+<body>
+
+<div>
+    <links>
+        <a href=index.php>Main</a>
+        <a href=fileManager.php>Files</a>
+        <a href=help.html>Help</a>
+    </links>
+</div>
+
+
+<hr>
+
+<br>
+<p>
+<h1>
+    <b>
+        <ins>Description</ins>
+    </b>
+</h1>
+
+<h1>Riley Campbell</h1>
+<h3>Last Tier: All tiers are passing</h3>
+<br>
+<ins><h1>Graded extensions:</h1></ins>
+
+<ol>
+    <li>10pt - Allow the user to set the grid size (rectangular is optional).
+        To test, give it the size of rows and columns you wish. The upper limit for rows is 14 and the
+        upper limit for columns is 14 OR however many will fit on your current browser width, whichever is smaller.</li>
+    <li>5pt - Add a border around the grid. To test, comment out "border: 10px outset grey;" inside of rule .gameContainer
+        in the mystyle.css file</li>
+</ol>
+<br>
+<ins><h1>Ungraded extensions:</h1></ins>
+
+<ol>
+    <li>for fun - Style the buttons</li>
+    <li>for fun - Add 4+ more colors via the color selector</li>
+    <li>for fun - Enable and disable the undo and redo button when applicable</li>
+    <li>for fun - Allow more than 1 file to be uploaded</li>
+    <li>for fun - added a back to top button</li>
+</ol>
+
+
+<br>
+</p>
+
+<h1>
+    <b>
+        <ins>CSS Mod</ins>
+    </b>
+</h1>
+<ul>
+    <li>index.php was styled with the rules in mystyle.css</li>
+    <li>fileManager.php was styled with the rules in mystyle.css</li>
+    <li>help.html was styled with the rules in helpStyle.css</li>
+</ul>
+<br>
+
+<br>
+<br>
+
+<h1>
+    <b>
+        <ins>Use</ins>
+    </b>
+</h1>
+<pre>
+    This site allows a user to build a nonogram prototype for use in creating nonogram grids. When a user first logs on,
+    they are presented with a blank 5x5 grid and and the selecting color is set to black. A user can select which color
+    want to use from the color selector. The current color is displayed in the text above the color selector. For setting
+    the size of the grid, the options are a preset 5x5 button, a 10x10 button, or a user may customize select the row and
+    column from the range sliders. The minimum size of the row/column is 1 cell. The max size for rows is 14 cells. The
+    max size for columns is 14 cells, or however many will fit on your current browser width, whichever is smaller. The
+    user choose to undo or redo any of their moves for selecting a new color, coloring a tile, or changing the grid size.
+    At any time, the user may save the state of their grid to a file for later use. Only one file may saved at a time,
+    any new saves will overwrite the file.
+
+    On the files page, the saved file may be downloaded to your local computer. There is also functionality for uploading
+    your own files. Only .txt files are permitted to be loaded to the files page. There is a load and download button
+    next to each file name on the page. If load is selected, the file will be error checked for invalid dimensions and
+    colors. If any discrepancies are found, the file will not be loaded, an alert will pop up letting the user know the
+    file was invalid, and the main page will display with a default white 5x5 grid. If the file is valid, the new board
+    will be loaded and displayed on the main screen.
+</pre>
+
+</body>
+</html>
+

@@ -1,0 +1,71 @@
+
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: file name: 
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: file name:
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: code: "Easy Fix" handles code: 1. Description: Oil change: $36
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: code: "The Mechanic" handles code: 4. Description: Battery change: $32
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: code: "Car dealer" handles code: 10. Description: New key: $275
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: code: Service Not Found
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: 

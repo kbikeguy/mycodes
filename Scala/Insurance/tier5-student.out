@@ -1,0 +1,267 @@
+
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: file name: 
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: what zip code: removed 57703
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: 
+Zip Code: 57701
+---Name: Harold
+------Cars: 
+---------Make: Ford           Model: Taurus         Year: 2015           Value: $1000           
+------Accidents:
+
+---------Accident date: 12-16-16       
+---Name: Bob
+------Cars: 
+---------Make: Toyota         Model: Prius          Year: 2015           Value: $2000           
+---Name: Indiana Jones
+------Cars: 
+---------Make: Ford           Model: Mustang        Year: 1976           Value: $20000          
+------Accidents:
+
+---------Accident date: 7-18-76        
+---------Accident date: 2-20-77        
+---------Accident date: 4-1-78         
+---------Accident date: 1-1-79         
+---------Accident date: 1-16-80        
+---------Accident date: 12-16-80       
+---Name: Darth Vader
+------Cars: 
+---------Make: Death          Model: Star           Year: 2156           Value: $1000000        
+Zip Code: 57702
+---Name: Sue
+------Cars: 
+---------Make: Toyota         Model: Prius          Year: 2015           Value: $15000          
+------Accidents:
+
+---------Accident date: 12-16-13       
+---Name: Captain Kirk
+------Cars: 
+---------Make: USS            Model: Enterprise NX1 Year: 2245           Value: $0              
+---Name: Easter Bunny
+------Cars: 
+---------Make: Volkwagon      Model: Beetle         Year: 2010           Value: $8500           
+------Accidents:
+
+---------Accident date: 08-04-13       
+
+
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: what zip code: added zip code
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: what zip code: added zip code
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: 
+Zip Code: 57701
+---Name: Harold
+------Cars: 
+---------Make: Ford           Model: Taurus         Year: 2015           Value: $1000           
+------Accidents:
+
+---------Accident date: 12-16-16       
+---Name: Bob
+------Cars: 
+---------Make: Toyota         Model: Prius          Year: 2015           Value: $2000           
+---Name: Indiana Jones
+------Cars: 
+---------Make: Ford           Model: Mustang        Year: 1976           Value: $20000          
+------Accidents:
+
+---------Accident date: 7-18-76        
+---------Accident date: 2-20-77        
+---------Accident date: 4-1-78         
+---------Accident date: 1-1-79         
+---------Accident date: 1-16-80        
+---------Accident date: 12-16-80       
+---Name: Darth Vader
+------Cars: 
+---------Make: Death          Model: Star           Year: 2156           Value: $1000000        
+Zip Code: 57702
+---Name: Sue
+------Cars: 
+---------Make: Toyota         Model: Prius          Year: 2015           Value: $15000          
+------Accidents:
+
+---------Accident date: 12-16-13       
+---Name: Captain Kirk
+------Cars: 
+---------Make: USS            Model: Enterprise NX1 Year: 2245           Value: $0              
+---Name: Easter Bunny
+------Cars: 
+---------Make: Volkwagon      Model: Beetle         Year: 2010           Value: $8500           
+------Accidents:
+
+---------Accident date: 08-04-13       
+Zip Code: 57700
+Zip Code: 57706
+
+
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: what zip code: removed 57706
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: what zip code: added zip code
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: what zip code: what owner: Added owner
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: what zip code: what owner: add car y/n? make: model: year: value: add accident y/n? date: 
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: file name:
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: 
+Zip Code: 57701
+---Name: Harold
+------Cars: 
+---------Make: Ford           Model: Taurus         Year: 2015           Value: $1000           
+------Accidents:
+
+---------Accident date: 12-16-16       
+---Name: Bob
+------Cars: 
+---------Make: Toyota         Model: Prius          Year: 2015           Value: $2000           
+---Name: Indiana Jones
+------Cars: 
+---------Make: Ford           Model: Mustang        Year: 1976           Value: $20000          
+------Accidents:
+
+---------Accident date: 7-18-76        
+---------Accident date: 2-20-77        
+---------Accident date: 4-1-78         
+---------Accident date: 1-1-79         
+---------Accident date: 1-16-80        
+---------Accident date: 12-16-80       
+---Name: Darth Vader
+------Cars: 
+---------Make: Death          Model: Star           Year: 2156           Value: $1000000        
+Zip Code: 57702
+---Name: Sue
+------Cars: 
+---------Make: Toyota         Model: Prius          Year: 2015           Value: $15000          
+------Accidents:
+
+---------Accident date: 12-16-13       
+---Name: Captain Kirk
+------Cars: 
+---------Make: USS            Model: Enterprise NX1 Year: 2245           Value: $0              
+---Name: Easter Bunny
+------Cars: 
+---------Make: Volkwagon      Model: Beetle         Year: 2010           Value: $8500           
+------Accidents:
+
+---------Accident date: 08-04-13       
+Zip Code: 57700
+Zip Code: 57705
+---Name: Bob
+------Cars: 
+---------Make: Chevy          Model: Volt           Year: 2017           Value: $45000          
+------Accidents:
+
+---------Accident date: 3/22/2018      
+
+
+1) Load XML
+2) Write XML
+3) Display data
+4) Add data
+5) Remove zip code
+6) Find service
+7) Total value insured
+8) Insurance for
+0) Quit
+Choice: 

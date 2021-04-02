@@ -1,0 +1,1262 @@
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Number of blocks: 
+_____Block 0_____
+   Length of block in miles:    Speed limit of block in mph:    Length of cycle in minutes: 
+_____Block 1_____
+   Length of block in miles:    Speed limit of block in mph:    Length of cycle in minutes: 
+_____Block 2_____
+   Length of block in miles:    Speed limit of block in mph:    Length of cycle in minutes: 
+_____Block 3_____
+   Length of block in miles:    Speed limit of block in mph: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Which end: 0-->left, 1-->right: Which type: 0-->slow, 1-->norm, 2-->fast: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Which end: 0-->left, 1-->right: Which type: 0-->slow, 1-->norm, 2-->fast: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Which end: 0-->left, 1-->right: Which type: 0-->slow, 1-->norm, 2-->fast: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Which end: 0-->left, 1-->right: Which type: 0-->slow, 1-->norm, 2-->fast: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -2-> <-0- ::Off:: -0-> <-0- ::Off:: -0-> <-0- ::Off:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 25: 0.25       26: 0.25       
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  27: 0.50       28: 0.50        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -2-> <-0- ::Off:: -0-> <-0- ::Off:: -0-> <-0- ::Off:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 25: 0.50       26: 0.50       
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  27: 1.00       28: 1.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -2-> <-0- ::Off:: -0-> <-0- ::On:: -0-> <-0- ::Off:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 25: 0.75       26: 0.75       
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  27: 1.50       28: 1.50        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -2-> <-0- ::Off:: -0-> <-0- ::On:: -0-> <-0- ::On:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 25: 1.00       26: 1.00       
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  27: 2.00       28: 2.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -2-> <-0- ::Off:: -0-> <-0- ::On:: -0-> <-0- ::On:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 25: 1.00       26: 1.00       
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  27: 2.50       28: 2.50        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -1-> <-0- ::On:: -1-> <-0- ::Off:: -0-> <-0- ::On:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 26: 1.00       
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 25: 0.21       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  27: 3.00       28: 3.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -2-> <-0- ::Off:: -0-> <-1- ::On:: -0-> <-1- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 25: 0.42       26: 0.21       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 0.33        
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  28: 3.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -2-> <-0- ::Off:: -0-> <-1- ::Off:: -0-> <-1- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 25: 0.62       26: 0.42       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 0.67        
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  28: 3.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Which end: 0-->left, 1-->right: Which type: 0-->slow, 1-->norm, 2-->fast: 
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -2-> <-0- ::On:: -0-> <-1- ::Off:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 25: 0.83       26: 0.62       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 1.00        
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  28: 3.00       29: 0.50        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -2-> <-0- ::On:: -0-> <-1- ::Off:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 25: 1.00       26: 0.83       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 1.33        
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  28: 3.00       29: 1.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -1-> <-0- ::On:: -1-> <-1- ::Off:: -0-> <-2- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 26: 1.00       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 1.67        
+Right: 25: 0.33       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  28: 3.00       29: 1.50        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -1-> <-0- ::Off:: -1-> <-2- ::On:: -0-> <-1- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 26: 1.00       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 2.00       28: 0.33        
+Right: 25: 0.67       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  29: 2.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -1-> <-0- ::Off:: -1-> <-2- ::On:: -0-> <-1- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 26: 1.00       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 2.00       28: 0.67        
+Right: 25: 1.00       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  29: 2.50        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -1-> <-0- ::Off:: -1-> <-2- ::On:: -0-> <-1- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 26: 1.00       
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  27: 2.00       28: 1.00        
+Right: 25: 1.33       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:  29: 3.00        
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-1- ::On:: -2-> <-2- ::On:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  27: 0.21        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  28: 1.33       29: 0.33        
+Right: 25: 1.67       26: 0.33       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-1- ::On:: -2-> <-2- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  27: 0.42        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  28: 1.67       29: 0.67        
+Right: 25: 2.00       26: 0.67       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-1- ::On:: -2-> <-2- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  27: 0.62        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  28: 2.00       29: 1.00        
+Right: 25: 2.00       26: 1.00       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -0-> <-1- ::Off:: -2-> <-2- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  27: 0.83        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  28: 2.00       29: 1.33        
+Right: 25: 2.00       26: 1.33       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -0-> <-1- ::Off:: -2-> <-2- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  27: 1.00        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  28: 2.00       29: 1.67        
+Right: 25: 2.00       26: 1.67       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-1- ::On:: -0-> <-0- ::Off:: -1-> <-2- ::On:: -1-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  27: 0.25        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  28: 2.00       29: 2.00        
+Right: 26: 2.00       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 25: 0.50       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-1- ::On:: -0-> <-1- ::On:: -1-> <-1- ::On:: -1-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  27: 0.50        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 0.21        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:  29: 2.00        
+Right: 26: 2.00       
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 25: 1.00       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-1- ::On:: -0-> <-2- ::On:: -0-> <-0- ::On:: -2-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  27: 0.75        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 0.42       29: 0.21        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 25: 1.50       26: 0.50       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-1- ::On:: -0-> <-2- ::On:: -0-> <-0- ::On:: -2-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  27: 1.00        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 0.62       29: 0.42        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 25: 2.00       26: 1.00       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-2- ::Off:: -0-> <-0- ::Off:: -2-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 0.83       29: 0.62        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 25: 2.50       26: 1.50       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-2- ::Off:: -0-> <-0- ::Off:: -2-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 1.00       29: 0.83        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 25: 3.00       26: 2.00       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-2- ::Off:: -0-> <-0- ::Off:: -1-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 1.00       29: 1.00        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 26: 2.50       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-2- ::On:: -0-> <-0- ::Off:: -1-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 1.00       29: 1.00        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 26: 3.00       
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-2- ::On:: -0-> <-0- ::On:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 1.00       29: 1.00        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::Off:: -0-> <-2- ::On:: -0-> <-0- ::On:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  28: 1.00       29: 1.00        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-1- ::On:: -0-> <-1- ::Off:: -0-> <-0- ::On:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  28: 0.25        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:  29: 1.00        
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-2- ::On:: -0-> <-0- ::Off:: -0-> <-0- ::On:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  28: 0.50       29: 0.25        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-2- ::On:: -0-> <-0- ::Off:: -0-> <-0- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  28: 0.75       29: 0.50        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-2- ::On:: -0-> <-0- ::On:: -0-> <-0- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  28: 1.00       29: 0.75        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-1- ::On:: -0-> <-0- ::On:: -0-> <-0- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:  29: 1.00        
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: Entry:: -0-> <-0- ::On:: -0-> <-0- ::On:: -0-> <-0- ::Off:: -0-> <-0- ::Exit
+_____Block 0_____
+Block Length: 1.0
+Block Speed: 30
+Left:   
+Right: 
+
+_____Block 1_____
+Block Length: 1.0
+Block Speed: 25
+Left:   
+Right: 
+
+_____Block 2_____
+Block Length: 2.0
+Block Speed: 40
+Left:   
+Right: 
+
+_____Block 3_____
+Block Length: 3.0
+Block Speed: 60
+Left:   
+Right: 
+
+
+1) Show Street
+2) Make Road
+3) Add Car
+4) Show Cars
+5) Update without Debug Info
+6) Update with Debug Info
+0) Quit
+
+Choice: 

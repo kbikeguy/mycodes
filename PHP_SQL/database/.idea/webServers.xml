@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1b47912a-7d94-4910-9f7b-6d1fab63293b" name="SDSMT" url="http://dev.mcs.sdsmt.edu/~7356506/">
+        <fileTransfer host="linux101.cse.sdsmt.edu" port="22" rootFolder="/home/student/7356506/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

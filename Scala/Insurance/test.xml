@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<insurance>
+    <zip code="57701">
+        <owner name="Harold">
+            <car model="Ford" make="Taurus" year= "2015" value="1000">
+            </car>
+            <accident>
+                <date>12-16-16</date>
+            </accident>
+        </owner>
+        <owner name="Bob">
+            <car model="Toyota" make="Prius" year= "2015" value="2000">
+            </car>
+        </owner>
+        <owner name="Bob2">
+            <car model="Toyota" make="Prius" year= "2015" value="2000">
+            </car>
+        </owner>
+    </zip>
+    <zip code="57702">
+        <owner name="Sue">
+            <car model="Chevorlet" make="Impala" year= "2010" value="3000">
+            </car>
+            <accident>
+                <date>1-1-14</date>
+            </accident>
+        </owner>
+    </zip>
+    <carShop name="Easy Fix">
+        <service code="1">Oil change: $36</service>
+        <service code="2">Tire Rotation: $35</service>
+    </carShop>
+    <carShop name="Not Good">
+        <service code="3">Body Work: $34</service>
+        <service code="1">Oil change: $33</service>
+    </carShop>
+    <carShop name="dealer">
+        <service code="3">Body Work: $31</service>
+        <service code="4">Battery change: $32</service>
+    </carShop>
+</insurance>

@@ -1,0 +1,531 @@
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: [30m━[0m[30m━[0m[30m━[0m[30m⚵[0m[30m⚵[0m
+[30m━[0m[30m━[0m[30m━[0m[30m⚵[0m[30m▫[0m
+[30m━[0m[30m━[0m[30m━[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: [30m┏[0m[30m┳[0m[30m┓[0m[30m⚵[0m[30m⚵[0m
+[30m┣[0m[30m╋[0m[30m┫[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m┻[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m┏[0m[30m┳[0m[30m┓[0m[30m━[0m[30m⚵[0m
+[30m┣[0m[30m╋[0m[30m┫[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m┻[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input location (x y): [30m┏[0m[30m┳[0m[30m┓[0m[30m━[0m[30m⚵[0m
+[30m┣[0m[30m▫[0m[30m┫[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m┻[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m┏[0m[30m┳[0m[30m┓[0m[30m━[0m[30m⚵[0m
+[30m┣[0m[30m▫[0m[30m┫[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m┻[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m━[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m┏[0m[30m┳[0m[30m┓[0m[30m━[0m[30m⚵[0m
+[30m┣[0m[30m▫[0m[30m┫[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m┻[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m━[0m[30m━[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m▫[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m┏[0m[30m┳[0m[30m┓[0m[30m━[0m[30m⚵[0m
+[30m┣[0m[30m▫[0m[30m┫[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m┻[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m━[0m[30m━[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m━[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m┏[0m[30m┳[0m[30m┓[0m[30m━[0m[30m⚵[0m
+[30m┣[0m[30m▫[0m[30m┫[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m┻[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m━[0m[30m━[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m━[0m[30m━[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: [30m┏[0m[30m━[0m[30m┳[0m[30m━[0m[30m⚵[0m
+[30m┃[0m[30m▫[0m[30m┃[0m[30m⚵[0m[30m▫[0m
+[30m┗[0m[30m━[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m┏[0m[30m┓[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m┗[0m[30m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [30m┏[0m[30m━[0m[30m┳[0m[30m━[0m[32m⚵[0m
+[30m┃[0m[30m▫[0m[30m┃[0m[32m⚵[0m[30m▫[0m
+[30m┗[0m[30m━[0m[30m┛[0m[30m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m┏[0m[30m┓[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m┗[0m[30m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [30m┏[0m[30m━[0m[30m┳[0m[30m━[0m[32m⚵[0m
+[30m┃[0m[30m▫[0m[30m┃[0m[32m⚵[0m[30m▫[0m
+[30m┗[0m[30m━[0m[30m┛[0m[33m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m┏[0m[30m┓[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[30m┗[0m[30m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[30m▫[0m
+[31m┗[0m[31m━[0m[31m┛[0m[33m⌂[0m[30m▫[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[31m┏[0m[31m┓[0m
+[30m▫[0m[30m▫[0m[30m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[31m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[31m┛[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┏[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Invalid option
+[31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[31m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[31m┛[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┏[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m⚵[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[31m┛[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┏[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m⚵[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m⌂[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┏[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m⚵[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m⌂[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m━[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m⌂[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m━[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m━[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [31m┏[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m⚵[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m┛[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m⚵[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m⚵[0m[31m━[0m[31m┳[0m[31m━[0m[32m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m⚵[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m⚵[0m[31m━[0m[31m┳[0m[31m━[0m[30m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m⚵[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Invalid option
+[30m⚵[0m[31m━[0m[31m┳[0m[31m━[0m[30m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m⚵[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Empty: 10
+Greenspaces: 5
+Roads: 9
+Buildings: 1
+
+[30m⚵[0m[31m━[0m[31m┳[0m[31m━[0m[30m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m⚵[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input location (x y): [30m━[0m[31m━[0m[31m┳[0m[31m━[0m[30m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m⚵[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input location (x y): [30m▫[0m[31m━[0m[31m┳[0m[31m━[0m[30m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m⚵[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input location (x y): [30m▫[0m[31m━[0m[31m┳[0m[31m━[0m[30m⚵[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input location (x y): [30m▫[0m[31m━[0m[31m┳[0m[31m━[0m[30m▫[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m⚵[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input location (x y): [30m▫[0m[31m━[0m[31m┳[0m[31m━[0m[30m▫[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m▫[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [30m▫[0m[31m━[0m[31m┳[0m[31m━[0m[30m▫[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m▫[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [30m▫[0m[31m━[0m[31m┳[0m[31m━[0m[30m▫[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m▫[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [30m▫[0m[31m━[0m[31m┳[0m[31m━[0m[30m▫[0m
+[31m┃[0m[30m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[30m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[30m▫[0m[31m┓[0m
+[30m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[30m▫[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Input tile type 1) greenspace 2) building 3) road #) empty: Input color 1) red 2) yellow 3) blue 4) green #) black: [31m▫[0m[31m━[0m[31m┳[0m[31m━[0m[31m▫[0m
+[31m┃[0m[31m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[31m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m▫[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m▫[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: Empty: 14
+Greenspaces: 1
+Roads: 9
+Buildings: 1
+
+[31m▫[0m[31m━[0m[31m┳[0m[31m━[0m[31m▫[0m
+[31m┃[0m[31m▫[0m[31m┃[0m[32m⚵[0m[31m▫[0m
+[31m┗[0m[31m━[0m[31m▫[0m[33m⌂[0m[31m▫[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m▫[0m[31m┓[0m
+[31m▫[0m[31m▫[0m[31m▫[0m[31m┗[0m[31m▫[0m
+
+1) Set Tile
+2) Remove tile
+3) Make default City
+4) Count Zones
+5) Set tile color
+6) Fix roads
+0) Quit
+
+Choice: 

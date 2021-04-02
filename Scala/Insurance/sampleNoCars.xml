@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<insurance>
+    <zip code="57701">
+        <owner name="Harold">
+        </owner>
+        <owner name="Bob">
+        </owner>
+        <owner name="Indiana Jones">
+        </owner>
+        <owner name="Darth Vader">
+        </owner>
+    </zip>
+    <zip code="57702">
+        <owner name="Sue">
+        </owner>
+        <owner name="Captain Kirk">
+        </owner>
+    </zip>
+    <zip code="57703">
+    </zip>
+</insurance>

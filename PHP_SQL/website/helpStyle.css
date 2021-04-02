@@ -1,0 +1,32 @@
+GRADING: CSS
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+GRADING: CSS
+div{
+    text-align: center;
+    font-size: 40px;
+}
+
+GRADING: CSS
+a {
+    margin-inline: 2em;
+}
+
+GRADING: CSS 
+body {
+    background-color: #cccccc;
+}
+
+GRADING: CSS
+li {
+    font-size: 1.5em
+}
+
+GRADING: CSS
+pre{
+    font:-moz-info;
+    font: caption;
+}

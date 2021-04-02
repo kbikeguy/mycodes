@@ -1,0 +1,220 @@
+/*GRADING: CSS*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+/*GRADING: CSS*/
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*GRADING: CSS*/
+.header {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+/*GRADING: CSS*/
+.Links {
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+/*GRADING: CSS*/
+.selectColor {
+    grid-column: 1/2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    width: 100%;
+}
+
+/*GRADING: CSS*/
+.size {
+    grid-column: 2/4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/*GRADING: CSS*/
+.saveUndoRedo {
+    grid-column: 4/7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/*GRADING: CSS*/
+.grid-container {
+    display: grid;
+    grid-gap: 5px;
+    background-color: #cccccc;
+    padding: 5px;
+}
+
+/*GRADING: CSS*/
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px;
+}
+
+/*GRADING: CSS*/
+#sliderRow  {
+    color:red;
+    font-weight:normal;
+}
+
+/*GRADING: CSS*/
+#sliderCol {
+    color: red;
+    font-weight: normal;
+}
+
+/*GRADING: CSS*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+/*GRADING: CSS*/
+#myBtn:hover {
+    background-color: #555;
+}
+
+/*GRADING: CSS*/
+h5 {
+    display: inline;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+}
+
+/*GRADING: CSS*/
+#col\+[type="button"]:disabled, #col\-[type="button"]:disabled, #row\+[type="button"]:disabled, #row\-[type="button"]:disabled, #undo[type="button"]:disabled, #redo[type="button"]:disabled {
+    opacity: 50%;
+}
+
+/*GRADING: CSS*/
+body, ul {
+    background-color: #cccccc;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+}
+
+/*GRADING: CSS*/
+.gameWrapper {
+    text-align: center;
+}
+
+/*GRADING: CSS*/
+.gameContainer {
+    display: grid;
+    justify-content: center;
+    border: 10px outset grey;
+    width:-moz-fit-content;
+    width:fit-content;
+    margin: auto auto;
+    background: blue;
+
+}
+
+/*GRADING: CSS*/
+.gameContainer button{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 2px 2px 2px 2px;
+    cursor: pointer;
+}
+
+/*GRADING: CSS*/
+.gameContainer button:hover{
+    opacity: 75%;
+    transform: scale(1.2);
+}
+
+/*GRADING: CSS*/
+.myButtns {
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+    margin-inline: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/*GRADING: CSS*/
+.color {
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+    margin-inline: 20px;
+    margin-top: 15px;
+}
+
+/*GRADING: CSS*/
+#row-, #row\+, #col-, #col\+ {
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 14px; /* Increase font size */
+    margin-top: 15px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+
+    border-radius: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none
+
+}
+
+/*GRADING: CSS*/
+h2 {
+    display: inline;
+    padding:0;
+}
+
+/*GRADING: CSS*/
+#undo:disabled, #redo:disabled{
+    opacity: 50%;
+}
+

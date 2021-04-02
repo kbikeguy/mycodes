@@ -1,0 +1,13 @@
+1
+sampleWithShops.xml
+2
+tier6_out.xml
+6
+1
+6
+4
+6
+10
+6
+100
+0

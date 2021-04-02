@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cats>
+    <zip code="57701">
+        <owner name="Harold">
+            <cat>Fluffy</cat>
+        </owner>
+    </zip>
+    <zip code="57702">
+        <owner name="Sue">
+            <cat>Patches</cat>
+        </owner>
+    </zip>
+</cats>

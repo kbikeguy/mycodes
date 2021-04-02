@@ -1,0 +1,14 @@
+﻿  riley_srtlist.cpp
+  riley_srt.cpp
+  riley_menu.cpp
+  prog2.cpp
+  kenji_srtlist.cpp
+  kenji_srt.cpp
+  dalton_srtlist.cpp
+  dalton_srt.cpp
+  aidan_srtlist.cpp
+  aidan_srt.cpp
+  aidan_menu.cpp
+c:\users\7356506\source\repos\team07\prog2\aidan_menu.cpp(51): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  prog2.vcxproj -> C:\Users\7356506\source\repos\team07\prog2\Debug\prog2.exe

@@ -1,0 +1,61 @@
+Simulation 1:
+      Box 1 was added to conveyor A
+      Box 1 fell off conveyor A
+      Box 2 was added to conveyor B
+      Box 3 was added to conveyor A
+      Box 4 was added to conveyor B
+      Box 2 fell off conveyor B
+      Box 5 was added to conveyor A
+      Box 6 was added to conveyor A
+      Box 3 fell off conveyor A
+      Box 7 was added to conveyor B
+      Box 4 fell off conveyor B
+      Box 8 was added to conveyor C
+      Box 9 was added to conveyor C
+      Box 10 was added to conveyor C
+      Box 8 fell off conveyor C
+      Box 11 was added to conveyor A
+      Box 12 was added to conveyor A
+      Box 5 fell off conveyor A
+      Box 13 was added to conveyor C
+      Box 9 fell off conveyor C
+      Box 10 fell off conveyor C
+      Box 14 was added to conveyor B
+      Box 7 fell off conveyor B
+      Box 15 was added to conveyor A
+      Box 6 fell off conveyor A
+      Box 11 fell off conveyor A
+      Box 12 fell off conveyor A
+
+Simulation 2:
+      Box 1 was added to conveyor A
+      Box 2 was added to conveyor C
+      Box 3 was added to conveyor C
+      Box 4 was added to conveyor A
+      Box 5 was added to conveyor A
+      Box 1 fell off conveyor A
+      Box 6 was added to conveyor A
+      Box 7 was added to conveyor C
+      Box 8 was added to conveyor C
+      Box 9 was added to conveyor C
+      Box 2 fell off conveyor C
+      Box 10 was added to conveyor C
+      Box 3 fell off conveyor C
+      Box 11 was added to conveyor C
+      Box 12 was added to conveyor A
+      Box 4 fell off conveyor A
+      Box 13 was added to conveyor A
+      Box 5 fell off conveyor A
+      Box 6 fell off conveyor A
+      Box 12 fell off conveyor A
+      Box 13 fell off conveyor A
+      Box 14 was added to conveyor B
+      Box 14 fell off conveyor B
+      Box 15 was added to conveyor C
+      Box 7 fell off conveyor C
+      Box 8 fell off conveyor C
+      Box 9 fell off conveyor C
+      Box 10 fell off conveyor C
+      Box 11 fell off conveyor C
+      Box 15 fell off conveyor C
+
